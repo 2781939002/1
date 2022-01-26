@@ -342,7 +342,7 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return '犹豫就会败北！';
-    if (score <= 99) return '不做人啦';
+    if (score <= 99) return '忍杀';
     if (score <= 149) return '真的是嗨到不行';
     if (score <= 199) return '您';
     return '人？';
